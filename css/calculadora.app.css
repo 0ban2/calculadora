@@ -1,0 +1,47 @@
+#contenedor {
+    width: 485px;
+    height: 275px;;
+    margin: 55px auto 0 auto;
+    background-color: #ccc;
+    padding: 15px 15px 265px 15px;
+    border-radius: 10px;
+    border-bottom: 10px solid #aaa;
+}
+.respuesta {
+    width: 340px;
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    background-color: #fff;
+    color: #000;
+    margin: 10px;
+}
+.respuesta > h3 {
+    margin-left: 15px;
+    margin-top: 0px;
+}
+.limpiar, h2 {
+    height: 45px;
+    border-bottom: 4px solid grey;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+    background-color: #bbb;
+    color: #fff;
+    margin: 10px;
+}
+.limpiar {
+    width: 100px;
+    float: left;
+    background-color: #FE2E2E;
+    color: #fff;
+    border-color: pink;
+}
+h2 {
+    float: left;
+    width: 100px;
+}
+h2:hover{
+    background-color:#000;
+}
